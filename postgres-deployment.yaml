@@ -71,7 +71,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: /home/data/postgres
+    path: /data/postgres
 
 ---
 apiVersion: v1
