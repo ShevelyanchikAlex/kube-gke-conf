@@ -20,7 +20,7 @@ spec:
             - containerPort: 8083
           env:
             - name: KAFKA_BROKERS
-              value: kafka-1680084936-0.kafka-1680084936-headless.default.svc.cluster.local:9092
+              value: kafka-1680618194-0.kafka-1680618194-headless.default.svc.cluster.local:9092
 
 ---
 apiVersion: v1
