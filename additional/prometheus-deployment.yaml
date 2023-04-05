@@ -145,7 +145,7 @@ data:
         metrics_path: '/actuator/prometheus'  
         scrape_interval: 5s                   
         static_configs:
-        - targets: ['user-service-svc.default.svc.cluster.104.154.133.12:8080']
+        - targets: ['user-service-svc.default.svc.cluster.local:8080']
           labels:
             group: 'user-service' 
     
@@ -153,7 +153,7 @@ data:
         metrics_path: '/actuator/prometheus'  
         scrape_interval: 5s                   
         static_configs:
-        - targets: ['api-gateway-svc.default.svc.cluster.34.29.132.94:8765']
+        - targets: ['api-gateway-svc.default.svc.cluster.local:8765']
           labels:
             group: 'api-gateway'
     
